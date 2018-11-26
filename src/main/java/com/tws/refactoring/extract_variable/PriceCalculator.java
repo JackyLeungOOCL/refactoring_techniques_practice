@@ -1,7 +1,7 @@
 package com.tws.refactoring.extract_variable;
 
 public class PriceCalculator {
-    public double getPrice(int quantity, int itemPrice) {
+    double getPrice(int quantity, int itemPrice) {
         // Price consists of: base price - discount + shipping cost
         int discountFromQuantity = 500;
         double discountRate = 0.05;
